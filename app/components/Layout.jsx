@@ -238,6 +238,7 @@ function DesktopHeader({isHome, menu, openCart, title}) {
                 isActive ? 'pb-1 border-b -mb-px' : 'pb-1'
               }
             >
+              {item}
               {item.title}
             </Link>
           ))}
